@@ -1,0 +1,25 @@
+﻿  main.cpp
+A:\Shapes\Project3\Button.h(33,68): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+A:\Shapes\Project3\Button.h(33,56): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+A:\Shapes\Project3\Button.h(55): warning C4715: 'Button::CreateShape': not all control paths return a value
+main.obj : error LNK2001: unresolved external symbol "public: static class sf::RenderStates const sf::RenderStates::Default" (?Default@RenderStates@sf@@2V12@B)
+main.obj : error LNK2001: unresolved external symbol "public: static class sf::Color const sf::Color::Red" (?Red@Color@sf@@2V12@B)
+main.obj : error LNK2001: unresolved external symbol "public: static class sf::Color const sf::Color::Green" (?Green@Color@sf@@2V12@B)
+main.obj : error LNK2001: unresolved external symbol "public: static class sf::Color const sf::Color::Blue" (?Blue@Color@sf@@2V12@B)
+A:\Shapes\x64\Debug\Project3.exe : fatal error LNK1120: 4 unresolved externals
