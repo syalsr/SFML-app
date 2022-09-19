@@ -26,7 +26,11 @@ public:
     {
         rectangle->setSize(sf::Vector2f(x, y));
     }
-
+    
+    ~Rectangle()
+    {
+        delete rectangle;
+    }
 private:
     sf::RectangleShape* rectangle;
 };
