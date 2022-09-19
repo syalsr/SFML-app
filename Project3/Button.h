@@ -53,6 +53,13 @@ public:
             return new Rectangle(pos);
         }
     }
+    
+    ~Button()
+    {
+    	delete but;
+	delete texture;
+    }
+    
 private:
     void SetTexture()
     {
