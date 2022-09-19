@@ -25,6 +25,11 @@ public:
     {
         circle->setRadius(radius);
     }
+    
+    ~Circle()
+    {
+        delete circle;
+    }
 
 private:
     sf::CircleShape* circle;
