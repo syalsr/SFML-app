@@ -31,6 +31,11 @@ public:
         triangle->setPoint(1, p2);
         triangle->setPoint(2, p3);
     }
+    
+    ~Triangle()
+    {
+        delete triangle;
+    }
 
 private:
     sf::ConvexShape* triangle;
